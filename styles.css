@@ -127,6 +127,7 @@
     width: 750px;
     height: 48px;
     background: #FFFFFF;
+    border-left: 6px solid #008000;
    }
 
    .form button {
