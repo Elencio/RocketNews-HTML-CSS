@@ -1,0 +1,150 @@
+:root {
+  --body-bg-color: #121214;
+  --text-color: #E1E1E6;
+  --title-color: #04D361;
+  --form-color: #A8A8A8;
+  --bg-button-color: #8257e5;
+}
+ body {
+  color: var(--text-color);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  width: 1440px;
+  height: 780px;
+  position:fixed;
+ }
+
+ .container-1 {
+  position: relative;
+  width: 720px;
+  height: 780px;
+  left: 0px;
+  top: 0px;
+  background-color: #121214;
+  z-index: 1;
+ }
+
+ header img {
+  position: relative;
+  width: 389px;
+  height: 94px;
+  left: 30px;
+  top: 50px;
+ }
+
+  .container-1-1 {
+      position: absolute;
+      width: 647px;
+      height: 102px;
+      left: 21px;
+      top: 200px;
+  }
+
+  .container-1-1 h3 {
+    position: relative;
+    width: 566px;
+    height: 16px;
+    font-family: 'Work Sans', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #08C05E;
+  }
+
+   .container-1-1 span {
+    position: absolute;
+    width: 517px;
+    height: 16px;
+    font-family: 'League Spartan', sans-serif;;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+   }
+    
+   .container-1-1 p {
+    position: absolute;
+    width: 647px;
+    height: 38px;
+    font-family: 'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+   }
+
+   .container-1-2 p {
+    position: absolute;
+    width: 133px;
+    height: 19px;
+    left: 30px;
+    top: 320px;
+    font-family:'League Spartan', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 138.73%; 
+    color: #A8A8A8;
+   }
+
+
+     #comment span {
+      position: absolute;
+      width: 167px;
+      height: 19px;
+      left: 36px;
+      top: 480px;
+      font-family: 'League Spartan', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 14px;
+      line-height: 138.73%;
+      color: #8257E5;
+    }
+
+     #comment img {
+      position: absolute;
+      width: 24px;
+      height: 24px;
+      left: 180px;
+      top: 478px;
+     }
+
+   .form {
+    position: absolute;
+    width: 798px;
+    height: 48px;
+    left: 30px;
+    top: 370px;
+   }
+
+   .form input {
+    position: absolute;
+    width: 750px;
+    height: 48px;
+    background: #FFFFFF;
+   }
+
+   .form button {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    left: 756px;
+    background: #8257E5;
+   }
+    
+ .container-2 {
+  position: absolute;
+  width: 1175px;
+  height: 780px;
+  left: 376px;
+  top: 0px;  
+   background-image: url("./assets/read_news.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
